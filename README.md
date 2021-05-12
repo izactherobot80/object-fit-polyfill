@@ -1,5 +1,7 @@
 # object-fit-polyfill
 
+This polyfill detects IE and converts img tags with object-fit style to background-image with same position and size as object-fit and object-position.
+
 **Markup**
 ```
 <div class="container">
